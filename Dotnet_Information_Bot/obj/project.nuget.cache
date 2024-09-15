@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "c6KmDy3+u96ZVBq9Af/Mpro5d3L1nUy0dCEqk8n54iFMK2+scu1lmdodFwOaLTEIuTpqjpsh2+qjJgkUTU0ujw==",
+  "dgSpecHash": "JCHFzZqF1xY=",
   "success": true,
-  "projectFilePath": "/Users/a1234/Documents/GitHub/Dotnet_Information.Console/Dotnet_Information_Bot/Dotnet_Information_Bot.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/macbook/Documents/GitHub/Dotnet_Information/Dotnet_Information_Bot/Dotnet_Information_Bot.csproj",
+  "expectedPackageFiles": [
+    "/Users/macbook/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/telegram.bot/19.0.0/telegram.bot.19.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

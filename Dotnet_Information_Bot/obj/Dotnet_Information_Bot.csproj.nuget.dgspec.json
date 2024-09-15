@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/a1234/Documents/GitHub/Dotnet_Information.Console/Dotnet_Information_Bot/Dotnet_Information_Bot.csproj": {}
+    "/Users/macbook/Documents/GitHub/Dotnet_Information/Dotnet_Information_Bot/Dotnet_Information_Bot.csproj": {}
   },
   "projects": {
-    "/Users/a1234/Documents/GitHub/Dotnet_Information.Console/Dotnet_Information_Bot/Dotnet_Information_Bot.csproj": {
+    "/Users/macbook/Documents/GitHub/Dotnet_Information/Dotnet_Information_Bot/Dotnet_Information_Bot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/a1234/Documents/GitHub/Dotnet_Information.Console/Dotnet_Information_Bot/Dotnet_Information_Bot.csproj",
+        "projectUniqueName": "/Users/macbook/Documents/GitHub/Dotnet_Information/Dotnet_Information_Bot/Dotnet_Information_Bot.csproj",
         "projectName": "Dotnet_Information_Bot",
-        "projectPath": "/Users/a1234/Documents/GitHub/Dotnet_Information.Console/Dotnet_Information_Bot/Dotnet_Information_Bot.csproj",
-        "packagesPath": "/Users/a1234/.nuget/packages/",
-        "outputPath": "/Users/a1234/Documents/GitHub/Dotnet_Information.Console/Dotnet_Information_Bot/obj/",
+        "projectPath": "/Users/macbook/Documents/GitHub/Dotnet_Information/Dotnet_Information_Bot/Dotnet_Information_Bot.csproj",
+        "packagesPath": "/Users/macbook/.nuget/packages/",
+        "outputPath": "/Users/macbook/Documents/GitHub/Dotnet_Information/Dotnet_Information_Bot/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/a1234/.nuget/NuGet/NuGet.Config"
+          "/Users/macbook/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,11 +32,22 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[19.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
